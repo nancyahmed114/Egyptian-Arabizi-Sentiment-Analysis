@@ -1,0 +1,29 @@
+"root":{11 items
+"model_id":string"MBZUAI-Paris/Nile-Chat-4B"
+"task":string"3-class sentiment (positive / negative / neutral)"
+"method":string"LoRA (Low-Rank Adaptation)"
+"quantization":string"4-bit NF4 (bitsandbytes)"
+"hyperparameters":{6 items
+"max_length":int128
+"batch_size":int4
+"epochs":int5
+"learning_rate":float0.0002
+"test_size":float0.2
+"seed":int42
+}
+"lora":{4 items
+"r":int8
+"alpha":int16
+"dropout":float0.1
+"target_modules":[...]2 items
+}
+"label_map":{3 items
+"negative":int0
+"neutral":int1
+"positive":int2
+}
+"environment":string"kaggle"
+"data_path":string"/kaggle/input/datasets/nancyelfky/arabizi-dataset2/arabizi_data.csv"
+"output_dir":string"/kaggle/working/models/lora_adapter"
+"created_at":string"2026-07-15T21:05:45.773375+00:00"
+}

@@ -1,0 +1,24 @@
+root":{8 items
+"baseline_macro_f1":float0.7455890339498205
+"final_macro_f1":float0.8843480000555569
+"improvement":float0.13875896610573646
+"per_class":{3 items
+"negative":{...}4 items
+"neutral":{...}4 items
+"positive":{...}4 items
+}
+"accuracy":float0.890625
+"macro_avg":{4 items
+"precision":float0.8869101659799333
+"recall":float0.8822853407557355
+"f1-score":float0.8843480000555569
+"support":int320
+}
+"weighted_avg":{4 items
+"precision":float0.890268175151896
+"recall":float0.890625
+"f1-score":float0.8902447133043078
+"support":int320
+}
+"test_size":int320
+}

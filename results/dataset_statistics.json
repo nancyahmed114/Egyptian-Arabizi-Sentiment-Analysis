@@ -1,0 +1,47 @@
+{
+  "data_path": "/kaggle/input/datasets/nancyelfky/arabizi-dataset2/arabizi_data.csv",
+  "total_examples": 1599,
+  "class_distribution": {
+    "negative": 639,
+    "neutral": 389,
+    "positive": 571
+  },
+  "class_distribution_pct": {
+    "negative": 39.96,
+    "neutral": 24.33,
+    "positive": 35.71
+  },
+  "train_size": 1279,
+  "test_size": 320,
+  "test_split_fraction": 0.2,
+  "train_class_distribution": {
+    "negative": 511,
+    "neutral": 311,
+    "positive": 457
+  },
+  "test_class_distribution": {
+    "negative": 128,
+    "neutral": 78,
+    "positive": 114
+  },
+  "text_length_words": {
+    "overall": {
+      "min_words": 0,
+      "max_words": 127,
+      "mean_words": 11.968730456535335,
+      "median_words": 8.0
+    },
+    "train": {
+      "min_words": 0,
+      "max_words": 127,
+      "mean_words": 11.927286942924159,
+      "median_words": 8.0
+    },
+    "test": {
+      "min_words": 1,
+      "max_words": 127,
+      "mean_words": 12.134375,
+      "median_words": 8.0
+    }
+  }
+}
